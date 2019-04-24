@@ -1,0 +1,9 @@
+
+.paralax {
+    background-image: url("../../assets/nature.jpg");
+    height: 700px;
+}
+.title {
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,9 @@
+.description  {
+    display: flex;
+    margin: 10% 2% 10% 2%;
+    text-align: justify;
+}
+
+.description > div {
+    margin: 10px;
+}
