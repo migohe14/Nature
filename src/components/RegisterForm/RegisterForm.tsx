@@ -28,4 +28,5 @@ export class RegisterForm extends React.Component<any, any> {
     </form>
     );
   }
+  
 }

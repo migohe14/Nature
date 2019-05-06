@@ -3,6 +3,7 @@ import classnames from "classnames";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import HomePage from "../../../pages/Home/HomePage";
 import AboutPage from "../../../pages/About/AboutPage";
+import MapPage from "../../../pages/Map/MapPage";
 import ContactPage from "../../../pages/Contact/ContactPage";
 import './HeaderStyle.css';
 
@@ -58,6 +59,9 @@ export class HeaderComponent extends React.Component<any, any> {
               <Link to="/about">About</Link>
             </li>
             <li>
+              <Link to="/map">Map</Link>
+            </li>
+            <li>
               <Link to="/contact">Contact</Link>
             </li>
             </ul>
@@ -74,6 +78,7 @@ export class HeaderComponent extends React.Component<any, any> {
       </header>
       <Route exact path="/" component={HomePage} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/map" component={MapPage} />
       <Route path="/contact" component={ContactPage} />
     </Router>
     );
